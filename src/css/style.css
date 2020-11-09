@@ -1,0 +1,25 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: monospace;
+}
+
+label {
+    display: block;
+    font-size: 12pt;
+}
+
+div.content {
+    margin: 10px;
+    padding: 0;
+}
+
+div.content > textarea {
+    width: calc(100vw - 20px);
+    height: 200px;
+}
+
+input[type=text] {
+    font-family: monospace;
+}

@@ -1,0 +1,13 @@
+{
+    "name": "FELS", 
+    "version": "1.0.0",    
+    "description": "Frontend for LS command",
+    "main": "src/main.js",
+    "scripts": {
+        "start": "electron .",
+        "test": "electron ."
+    },
+    "keywords": [],
+    "author": "taigo nakajima",
+    "license": ""
+}
