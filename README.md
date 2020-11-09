@@ -1,4 +1,5 @@
 # FrontEnd for LS command
+Electronの練習。lsコマンドのGUIフロントエンド。
 
 ## 環境構築
 ```shell
