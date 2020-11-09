@@ -13,7 +13,7 @@ app.on('window-all-closed', () => app.quit());
 // 準備が整った際の処理
 app.on('ready', () => {
     const win = new BrowserWindow({
-        width: 600, height: 400, webPreferences: {
+        width: 600, height: 470, webPreferences: {
             nodeIntegration: true, webviewTag: true
         }});
     const url = `file://${__dirname}/index.html`;

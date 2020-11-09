@@ -15,11 +15,22 @@ div.content {
     padding: 0;
 }
 
-div.content > textarea {
-    width: calc(100vw - 20px);
-    height: 200px;
-}
-
 input[type=text] {
     font-family: monospace;
 }
+
+#command_preview {
+    width: calc(100vw - 20px);
+    background-color: #333;
+    color: #fff;
+    font-size: 12pt;
+}
+
+div.content > textarea {
+    width: calc(100vw - 20px);
+    height: 200px;
+    background-color: #333;
+    color: #fff;
+    font-size: 12pt;
+}
+
